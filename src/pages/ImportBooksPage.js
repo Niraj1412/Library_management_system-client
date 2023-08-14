@@ -7,7 +7,7 @@ const ImportBooksPage = () => {
 
   const handleImport = async () => {
     try {
-      const response = await axios.post('http://3.92.181.206:8000/api/import-books/', {
+      const response = await axios.post('https://12niraj01.pythonanywhere.com/api/import-books/', {
         title: bookName,
         num_books: quantity,
       });

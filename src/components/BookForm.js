@@ -7,7 +7,7 @@ const BookForm = () => {
 
   const handleIssue = async () => {
     try {
-      const response = await axios.post('http://3.92.181.206:8000/issue-book/', {
+      const response = await axios.post('https://12niraj01.pythonanywhere.com/issue-book/', {
         book: 123,  // Replace with appropriate book ID
         member: memberId,
         issue_date: issueDate,
